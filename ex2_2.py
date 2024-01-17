@@ -27,7 +27,7 @@ def total_rides_route_year(rows, year):
     return route_year_counter
 
 if __name__ == "__main__": 
-    rows = readrides.read_rides_as_dict('Data/ctabus.csv')
+    rows = readrides.read_rides_as_ridedata_dicts('Data/ctabus.csv')
 
     print(f"Total no. of rows: {len(rows)}")
     print(f"Sampling first 5 records.")
