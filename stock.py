@@ -10,7 +10,7 @@ class Stock:
     def cost(self):
         return self.shares * self.price
 
-    def sell(nshares):
+    def sell(self, nshares):
         self.shares -= nshares
 
     @classmethod
